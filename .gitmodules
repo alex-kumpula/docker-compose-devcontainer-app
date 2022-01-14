@@ -1,0 +1,8 @@
+[submodule "nextjs-service"]
+	path = nextjs-service
+	url = https://github.com/alex-kumpula/nextjs-container-example.git
+	ignore = dirty
+[submodule "fastapi-service"]
+	path = fastapi-service
+	url = https://github.com/alex-kumpula/fastapi-container-example.git
+	ignore = dirty
