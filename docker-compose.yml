@@ -3,14 +3,14 @@ version: '3'
 services:
   nextapp:
     extends:
-      file: ./nextapp/docker-compose.yml
+      file: ./nextjs-service/docker-compose.yml
       service: nextapp
     networks:
       - WebApp
 
   fastapi:
     extends:
-      file: ./fastapi/docker-compose.yml
+      file: ./fastapi-service/docker-compose.yml
       service: fastapi
     networks:
       - WebApp
