@@ -6,3 +6,7 @@
 	path = fastapi-service
 	url = https://github.com/alex-kumpula/fastapi-container-example.git
 	ignore = dirty
+[submodule "devcontainer-only-example"]
+	path = devcontainer-only-example
+	url = https://github.com/alex-kumpula/devcontainer-only-example.git
+	ignore = dirty
