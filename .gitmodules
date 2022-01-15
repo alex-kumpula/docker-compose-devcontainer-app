@@ -10,3 +10,7 @@
 	path = devcontainer-only-example
 	url = https://github.com/alex-kumpula/devcontainer-only-example.git
 	ignore = dirty
+[submodule "reactjs-service"]
+	path = reactjs-service
+	url = https://github.com/alex-kumpula/reactjs-container-example.git
+	ignore = dirty
